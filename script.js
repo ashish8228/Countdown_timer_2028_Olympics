@@ -3,7 +3,7 @@ const count = document.getElementById("tim");
 
 let countdown = function olympics(){
 let date = new Date().getTime();
-const olympics_date = new Date("July 21, 2028 23:59:59").getTime();
+const olympics_date = new Date("July 21, 2028 00:00:00").getTime();
 let new_date = olympics_date - date;
 
 let days = Math.floor(new_date / (1000 * 60 * 60 * 24));
